@@ -1,0 +1,14 @@
+{
+    "sustantivos": [
+        "perro",
+        "ventana",
+        "arbol"
+    ],
+    "adjetivos": [
+        "celeste"
+    ],
+    "verbos": [
+        "correr",
+        "bailaba"
+    ]
+}

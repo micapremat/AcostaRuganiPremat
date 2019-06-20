@@ -1,0 +1,11 @@
+[
+    {
+        "ayuda": "no",
+        "orientacion": "vertical",
+        "mayuscula": "minuscula",
+        "tipografia": "Helvetica",
+        "colors": "green",
+        "colora": "green",
+        "colorv": "green"
+    }
+]
