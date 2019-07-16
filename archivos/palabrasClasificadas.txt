@@ -1,0 +1,11 @@
+{
+    "sustantivos": [
+        "casa"
+    ],
+    "adjetivos": [
+        "feo"
+    ],
+    "verbos": [
+        "esperar"
+    ]
+}

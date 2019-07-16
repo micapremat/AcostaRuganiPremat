@@ -1,0 +1,14 @@
+[
+    {
+        "ayuda": "definicion",
+        "orientacion": "vertical",
+        "mayuscula": "minuscula",
+        "tipografia": "Helvetica",
+        "colors": "green",
+        "colora": "blue",
+        "colorv": "yellow",
+        "cans": "1",
+        "cana": "1",
+        "canv": "1"
+    }
+]
