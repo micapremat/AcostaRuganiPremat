@@ -1,5 +1,0 @@
-La palabra: perro no coincide con pattern
-La palabra: ventana no coincide con pattern
-La palabra: arbol no coincide con pattern
-La palabra: correr no coincide con pattern
-La palabra: bailaba no coincide con pattern
