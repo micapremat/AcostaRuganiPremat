@@ -37,6 +37,7 @@ def matrizColores(longitud):
     return matrizColores
 
 def temperatura():
+    '''Se obtienen los datos del archivo del sensado y se calcula el promedio de temperatura'''
     archivoDatos= open ('archivos/datos-oficinas.json','r')
     datosOficinas = json.load(archivoDatos)
     suma = 0
@@ -44,11 +45,11 @@ def temperatura():
     print(datosOficinas)
     for datos in datosOficinas:
         print('datos',datos)
-        for hola in datosOficinas[datos]:
-            suma = suma + hola['temp']
+        for dato in datosOficinas[datos]:
+            suma = suma + dato['temperatura']
             cant = cant+1
-            print('temperatura',hola['temp'])
-            print('humedad',hola['humedad'])
+            print('temperatura',dato['temperatura'])
+            print('humedad',dato['humedad'])
     promedio = suma/cant
     print(promedio)
     return promedio

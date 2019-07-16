@@ -15,11 +15,12 @@ if __name__ == '__main__':
         if ((dt.now() - t1).total_seconds() >= 60):
             t1 = dt.now()
             registro = temp.datos_sensor()
+            registro['fecha'] = time.strftime("%Y %H:%M:%S", time.gmtime())
             archivoRegistro = open ('archivos/datos-oficinas.json','a')
             dic['oficina1'].append(registro)
             json.dump(dic,archivoRegistro,indent=4)
             archivoRegistro.close()
         if sonido.evento_detectado():
-            mensaje = 'Temperatura: {0}, Humedad: {1}'.format(registro['temperatura'],registro['humedad'])
+            mensaje = 'Temperatura: {0}, Humedad: {1},Fecha:{2}'.format(registro['temperatura'],registro['humedad'],,registro['fecha'])
             matriz.mostrar_mensaje(mensaje)
         
